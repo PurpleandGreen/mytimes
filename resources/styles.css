@@ -7,7 +7,12 @@
 }
 
 .navigation {
-  display: inline-block;
   font-family: Verdana;
   font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+.header .navigation {
+  display: inline-block;
 }
