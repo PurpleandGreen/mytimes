@@ -2,5 +2,12 @@
   display: flex;
   font-family: Verdana;
   font-size: 14px;
-  font-weight: bold; 
+  font-weight: bold;
+  color: MediumAquamarine;
+}
+
+.navigation {
+  display: inline-block;
+  font-family: Verdana;
+  font-size: 14px;
 }
