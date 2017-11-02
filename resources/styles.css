@@ -52,7 +52,7 @@ div {
 .column {
   display: inline-flex;
   flex-wrap:nowrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 
