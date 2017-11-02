@@ -1,17 +1,71 @@
-.header {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  color: MediumAquamarine;
+
+div {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
 }
 
-.navigation {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  color: black;
-}
 
-.header .navigation {
+ .container1 {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   border-bottom: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: black;
+   border-bottom-width: 100%;
+   width: 100%;
+   height: auto;
+   top: 0px;
+   margin: 0;
+   padding: 0;
+ }
+
+ .logo {
+   flex: 0 1 75px;
+   position: static;
+ }
+
+ .mytimes {
+   flex: 0 1 900px;
+   font-family: Verdana;
+   color: MediumAquamarine;
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+ .navigation {
+   display: flex;
+   align-items: flex-end;
+   flex-grow: 1;
+   flex-wrap: wrap;
+ }
+
+.navigation a {
   display: inline-block;
+  color: black;
+  font-family: Verdana;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.maincontainer {
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: row; 
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
 }
