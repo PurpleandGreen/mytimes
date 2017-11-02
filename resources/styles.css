@@ -54,7 +54,8 @@ div {
   flex-wrap:nowrap;
   flex-direction: column;
   justify-content: space-around;
-  width: 100%
+  width: 100%;
+  align-items: top; 
 }
 
 .large {
