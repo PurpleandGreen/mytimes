@@ -50,22 +50,32 @@ div {
 }
 
 .maincontainer {
-  display: flex;
+  display: inline-flex;
   flex-wrap:nowrap;
-  flex-direction: row; 
+  flex-direction: column;
+  justify-content: space-around; 
 }
 
 .column.large {
-  display: flex;
+  display: inline-flex;
+  flex-direction: column;
   width: 630px;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .column.medium {
-  display: flex;
+  display: inline-flex;
+  flex-direction: column;
   width: 300px;
+  justify-content: space-between;
+  margin: auto;
 }
 
 .column.small {
-  display: flex;
+  display: inline-flex;
+  flex-direction: column;
   width: 240px;
+  justify-content: space-between;
+  margin: auto;
 }
