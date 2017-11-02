@@ -49,14 +49,14 @@ div {
   padding: 10px;
 }
 
-.maincontainer {
+.column {
   display: inline-flex;
   flex-wrap:nowrap;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.column.large {
+.large {
   display: inline-flex;
   flex-direction: row;
   width: 630px;
@@ -64,7 +64,7 @@ div {
   margin: auto;
 }
 
-.column.medium {
+.medium {
   display: inline-flex;
   flex-direction: row;
   width: 300px;
@@ -72,7 +72,7 @@ div {
   margin: auto;
 }
 
-.column.small {
+.small {
   display: inline-flex;
   flex-direction: row;
   width: 240px;
