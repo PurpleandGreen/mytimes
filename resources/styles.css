@@ -52,13 +52,13 @@ div {
 .maincontainer {
   display: inline-flex;
   flex-wrap:nowrap;
-  flex-direction: column;
-  justify-content: space-around; 
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .column.large {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 630px;
   justify-content: space-between;
   margin: auto;
@@ -66,7 +66,7 @@ div {
 
 .column.medium {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 300px;
   justify-content: space-between;
   margin: auto;
@@ -74,7 +74,7 @@ div {
 
 .column.small {
   display: inline-flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 240px;
   justify-content: space-between;
   margin: auto;
