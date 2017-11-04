@@ -51,18 +51,22 @@ div {
 
 
 .container2 {
+  display: flex;
   background: pink;
   width: 100%;
-  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 3px;
+  justify-content: center;
+  position: fixed;
 }
 
 .column {
-  display: inline-flex;
+  display: flex;
   width:auto;
   height: auto;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-around;
+  position: fixed;
 }
 
 .large {
@@ -70,10 +74,12 @@ div {
   flex-direction: column;
   width: 630px;
   height: 100%;
-  justify-content: space-between;
+  justify-content: sp;
   margin: auto;
   align-items: flex-start;
   background: lightblue;
+  margin-right: 50px;
+  position: fixed;
 }
 
 .medium {
@@ -85,6 +91,8 @@ div {
   margin: auto;
   align-items: flex-start;
   background: lightblue;
+  margin-right: 50px;
+  position: fixed;
 }
 
 .small {
@@ -96,4 +104,9 @@ div {
   margin: auto;
   align-items: flex-start;
   background: lightblue;
+  position: fixed;
+}
+
+p {
+  position: fixed; 
 }
